@@ -2,10 +2,9 @@
 #ifdef AUDIO_ENABLE
 #include "muse.h"
 #endif
-#include "eeprom.h"
 
 enum planck_keycodes {
-  RGB_SLD = EZ_SAFE_RANGE,
+  // RGB_SLD = EZ_SAFE_RANGE,
   ST_MACRO_0,
   ST_MACRO_1,
   ST_MACRO_2,
